@@ -1,0 +1,15 @@
+(put the host addresses here)
+
+[websrvgrp]
+put the web host addresse here 
+
+[dbsrvgrp]
+put the db host addresse here 
+
+[dc_ohio:children]
+websrvgrp
+dbsrvgrp
+
+[dc_ohio:vars]
+ansible_user= put the name of the user here 
+ansible_ssh_private_key_file=put the name of the key pair here
